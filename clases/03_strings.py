@@ -20,7 +20,7 @@ a, b, c, d, e = nombre_usuario
 print(a)
 print(b)
 print(e)
-"""
+
 #mostrar carateres desde una posicion inicial(pos2) hasta la final marcada menos 1(pos4). Empezamos en pos 0
 nombre_usuario = "Cesar"
 parte_nombre_usuario = nombre_usuario[2:5]
@@ -31,3 +31,24 @@ print(parte_nombre_usuario)
 #reverse
 parte_nombre_usuario = nombre_usuario[::-1]
 print(parte_nombre_usuario)
+"""
+nombre_usuario = "cesar"
+#Funciones del sistma con String
+#len --> longitud
+print(len(nombre_usuario))
+#capitalize --> 1ª letra en mayuscula
+print(nombre_usuario.capitalize())
+#upper --> todo en mayuscula
+print(nombre_usuario.upper())
+#lower --> todo en minuscular
+print(nombre_usuario.lower())
+#count --> cuenta el numero de "e"
+print(nombre_usuario.count("e"))
+#isnumeric --> es numero
+print(nombre_usuario.isnumeric())
+#isnumeric --> es letras
+print(nombre_usuario.isalpha())
+#startswith --> comienza(diferecnia mayusculas de minusculas)
+print(nombre_usuario.startswith("c"))
+
+
