@@ -33,3 +33,9 @@ print(apellido_primero)
 
 print ("mi edad es:",edad, "mi nombre es:", nombre, "y mis apellidos son:",apellido_primero, apellido_segundo)
 
+#introduccion de datos por pantalla
+age = input("¿que edad tienes?")
+nick = input("cual es tu nick")
+
+print(nick,age)
+print("\thola")
