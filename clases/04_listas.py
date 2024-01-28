@@ -70,11 +70,15 @@ lista_numero = [1,100,2,500,9,8,10,100]
 print(lista_numero)
 lista_numero.sort()
 print(lista_numero)
-"""
-#mostrar del indice 2 al 6
+
+#mostrar del indice 2 al 6(sublista)
 lista_numero = [1,100,2,500,9,8,10,100]
 print(lista_numero)
 print(lista_numero [3:7])
+"""
+
+
+
 
 
 
