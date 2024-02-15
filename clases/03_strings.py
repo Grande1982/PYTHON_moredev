@@ -1,4 +1,4 @@
-"""
+
 #forma de mostrar una variable
 
 nombre_usuario = "Cesar"
@@ -31,7 +31,7 @@ print(parte_nombre_usuario)
 #reverse
 parte_nombre_usuario = nombre_usuario[::-1]
 print(parte_nombre_usuario)
-"""
+
 nombre_usuario = "cesar"
 #Funciones del sistma con String
 #len --> longitud

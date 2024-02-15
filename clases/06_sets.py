@@ -6,7 +6,7 @@ print(type(mi_set2))
 
 mi_set2 = {"cesar",1,3,"grande"}
 print(type(mi_set2))
-"""
+
 #añadir
 mi_set2.add("ruth")
 print(mi_set2)
@@ -19,7 +19,6 @@ print(mi_set2)
 mi_set2.clear()
 print(mi_set2)
 del mi_set2
-"""
 
 mi_set3 = {"xx",10,30,"zz","grande"}
 
